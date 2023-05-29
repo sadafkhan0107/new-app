@@ -58,7 +58,7 @@ let count = 0;
  
 // Rendering multiple objects and storing them in key value pair bcoz every product should have it's unique id
 
- const products= [
+/** const products= [
   {id:1, product:"Jeans"},
   {id:2, product:"Kurta"},
   {id:3, product:"Shirt"},
@@ -98,7 +98,7 @@ function App() {
     </ul>
   );
 }
-
+*/
 
 
 
@@ -129,7 +129,6 @@ function App() {
 // props
 
 // function Button({text,message, numbers}){ 
-//   // const {text, message} = props;
 //   console.log( numbers?.a ? "number found" : "numbers not found");
 //   return(
 //    <> <button>{text}
